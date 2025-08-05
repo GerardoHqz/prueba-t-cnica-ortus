@@ -1,0 +1,33 @@
+services:
+  mysql:
+    image: mysql:8
+    container_name: BD-CRUD
+    environment:
+      MYSQL_ROOT_PASSWORD: admin123
+      MYSQL_DATABASE: crud_ortus
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    networks:
+      - crud-net
+
+  app:
+    build: .
+    container_name: crud-app
+    ports:
+      - "8080:8080"
+    depends_on:
+      - mysql
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysql:3306/crud_ortus
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: admin123
+    networks:
+      - crud-net
+
+volumes:
+  mysql_data:
+
+networks:
+  crud-net:

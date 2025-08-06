@@ -4,7 +4,7 @@ Este proyecto forma parte de una prueba técnica y consiste en un CRUD desarroll
 
 ---
 ## 📽️Video Explicativo
-Enlace: [https://drive.google.com/file/d/1a6BvD4lZ9_vaqZzi1OWLcAck-a4IjWTw/view?usp=sharing](https://drive.google.com/file/d/10GknjVrUUoIoU8pUW4OFhTlfXIuMR7ah/view?usp=sharing)]
+Enlace: [https://drive.google.com/file/d/1a6BvD4lZ9_vaqZzi1OWLcAck-a4IjWTw/view?usp=sharing](https://drive.google.com/file/d/10GknjVrUUoIoU8pUW4OFhTlfXIuMR7ah/view?usp=sharing)
 
 ---
 

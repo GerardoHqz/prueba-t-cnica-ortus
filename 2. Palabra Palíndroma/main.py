@@ -1,14 +1,14 @@
 def is_palindrome_word(word):
     # Convertir a minusculas y quitar espacios
-    limpia = ''
+    clean_word = ''
     for c in word:
         if c.isalnum():
-            limpia += c.lower()
+            clean_word += c.lower()
 
     # Comparar caracteres del principio y del final
-    longitud = len(limpia)
-    for i in range(longitud // 2):
-        if limpia[i] != limpia[longitud - 1 - i]:
+    longitude = len(clean_word)
+    for i in range(longitude // 2):
+        if clean_word[i] != clean_word[longitude - 1 - i]:
             return False
     return True
 

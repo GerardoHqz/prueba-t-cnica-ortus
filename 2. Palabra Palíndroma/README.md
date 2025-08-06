@@ -2,6 +2,10 @@
 
 Este es un pequeño programa en Python que permite determinar si una cadena ingresada por el usuario es un **palíndromo** o no. U
 ---
+## Video Explicativo
+
+Enlace: https://drive.google.com/file/d/1t4omU1Fz6ceBt-GC19-tziy_iMbf9T0p/view?usp=sharing
+---
 
 ## 📦 Requisitos
 

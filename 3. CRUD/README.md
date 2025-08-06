@@ -78,3 +78,9 @@ POST    /productos            # Crear un nuevo producto
 PUT     /productos/{id}       # Actualizar un producto existente
 DELETE  /productos/{id}       # Eliminar un producto
 ```
+
+O puedes consultar la documentación swagger en:
+
+```
+http://localhost:8080/swagger-ui.html
+```

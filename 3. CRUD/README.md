@@ -3,6 +3,10 @@
 Este proyecto forma parte de una prueba técnica y consiste en un CRUD desarrollado con **Java 21**, **Spring Boot 3.5.4** y **MySQL**. En base al ejercicio propuesto, la API puede crear , leer, actualizar y eliminar productos en una base de datos. Dicho producto cuenta con id, nombre, precio y stock.
 
 ---
+## 📽️Video Explicativo
+Enlace: [https://drive.google.com/file/d/1a6BvD4lZ9_vaqZzi1OWLcAck-a4IjWTw/view?usp=sharing](https://drive.google.com/file/d/10GknjVrUUoIoU8pUW4OFhTlfXIuMR7ah/view?usp=sharing)](https://drive.google.com/file/d/10GknjVrUUoIoU8pUW4OFhTlfXIuMR7ah/view?usp=sharing)
+
+---
 
 ## 🚀 Pasos para iniciar el proyecto
 
